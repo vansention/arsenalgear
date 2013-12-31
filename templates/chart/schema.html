@@ -1,0 +1,34 @@
+{% extends "../base.html" %}
+
+{% block content %}
+<div class="span16">
+	<h1>Chart Schema List
+    <a href="/chart/schema/insert/" class="btn btn-mini"><i class="icon-plus"></i>add</a>
+    </h1>
+	<table class="table table-striped table-bordered table-condensed">
+		<thead>
+            <tr>
+            	<td width="5%">id</td>
+            	<td width="10%">name</td>
+            	<td width="80%">schema</td>
+            	<td width="5%">opration</td>
+            </tr>
+		</thead>
+        <tbody>
+            {% for q in query %}
+            <tr>
+            	<td>{{q.id}}</td>
+            	<td>{{q.name}}</td>
+            	<td>
+                    <pre>{{q.schema}}</pre>
+                </td>
+            	<td>
+                    <a href="/chart/schema/{{q.name.strip()}}/edit/" class="btn btn-mini"><i class="icon-edit"></i>edit</a>
+                </td>
+            </tr>
+            {% end %}
+        </tbody>
+	</table>
+</div>
+{% end %}
+

@@ -1,0 +1,27 @@
+{% extends "../base.html" %}
+
+{% block content %}
+<div class="span16">
+	<h1>Schema {{schema.name}} edit
+    <hr />
+    
+    <a id="submit" href="" class="btn btn-mini"><i class="icon-edit"></i> submit</a>
+    <form action="" method="POST">
+    <input type="text" name="name" value="{{schema.name}}" style="width:600px" /> 
+    <br />
+    <textarea style="width:600px;height:500px;" name="schema">{{schema.schema}}</textarea> 
+    <br />
+    </form>
+    </h1>
+</div>
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#submit').click(function(e){
+        e.preventDefault()
+        $('form').submit()
+    })   
+})
+</script>
+{% end %}
+

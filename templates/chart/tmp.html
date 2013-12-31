@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+{% autoescape None %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+<!--    <script type="text/javascript" src="http://192.168.1.201:8877/static/js/googlechart/jsapi.js"></script>
+    <script type="text/javascript" src="http://192.168.1.201:8877/static/js/googlechart/corechart.I.js"></script>
+-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('datetime', 'datetime');
+        data.addColumn('number', 'count');
+
+        var res = {{res}}
+        $.each(res,function(i,n){
+
+            data.addRow([new Date(n[0]) ,n[1]]);
+
+            n[0] = new Date(n[0]);     
+        })
+        var option = {width: 1200, height: 600,lineWidth:1,pointSize:0,
+                         hAxis:{format:"yyyy-MM-dd HH:mm",color:['red','#004411']},vAxis:{minValue:0}
+                         } 
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+        chart.draw(data,option);
+    }
+    </script>
+</head>
+<body>
+    <div id="chart_div"></div>
+</body>
+</html>

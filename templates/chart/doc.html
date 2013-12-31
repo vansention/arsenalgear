@@ -1,0 +1,97 @@
+{% extends "../base.html" %}
+
+{% block content %}
+<div class="span16">
+    <h1>[ {{tablename}} ]</h1>
+    <hr />
+    
+    <div class="row span14">
+    <h2>Struct</h2>
+        <table class="table table-bordered table-striped span8">
+        	<thead>
+        		<th>Field</th>
+        		<th>Type</th>
+        		<th>PK</th>
+        	</thead>
+            <tbody>
+                {% for c in cols %}
+                <tr>
+                	<td>{{c[0]}}</td>
+                	<td>{{c[1]}}</td>
+                	<td>{{c[2]}}</td>
+                </tr>
+                {% end %}
+            </tbody>
+        </table>
+    </div>
+    <div class="row span14">
+    <h2>Example</h2>
+        <p>
+            如果插入一行数据
+            {{cols[1][0]}}=1 ,{{cols[2][0]}}=2, datetime 为当前时间<br>
+            <code class="prettyprint linenums">
+            POST /api/model/skylight/    {'{{cols[1][0]}}':1,'{{cols[2][0]}}':2}
+            </code>
+            <br>
+            <br>
+            如果需要插入多行数据
+            <br>
+            {{cols[1][0]}}=1，{{cols[2][0]}}=2
+            <br>
+            {{cols[1][0]}}=2，{{cols[2][0]}}=2
+            <br>
+            {{cols[1][0]}}=3，{{cols[2][0]}}=2
+            <br>
+            <pre class="prettyprint linenums">
+            POST /api/model/{{tablename}}/    
+            data = [
+                { {{cols[1][0]}}=1，{{cols[2][0]}}=2 },
+                { {{cols[1][0]}}=2，{{cols[2][0]}}=2 },
+                { {{cols[1][0]}}=3，{{cols[2][0]}}=2 },
+]
+{'apidata':json.dumps(data)}
+            </pre>
+        </p>    
+        <h2>CODE</h2>
+        <p>
+<pre>
+import urllib,urllib2
+import json
+
+class Robot(object):
+    def __init__(self):
+        self.opener = urllib2.build_opener()
+    def open(self,url):
+        try:
+            request = urllib2.Request(url = url)
+            self.headers['Referer'] = url
+            return self.opener.open(request)
+        except urllib2.HTTPError,e:
+            print 'error open %s'%url
+            raise e
+    def post(self,url,data):
+        try:
+            postdata = urllib.urlencode(data)
+            request = urllib2.Request(url,data=postdata)
+            return self.opener.open(request)
+        except urllib2.HTTPError,e:
+            print url,data
+            raise e
+</pre>
+<pre>
+r = Robot()
+# 插入一条数据
+r.post('http://192.168.1.201:10081/api/model/{{tablename}}/',{'{{cols[1][0]}}':1,'{{cols[2][0]}}':2})
+# 插入多条数据
+data = [
+    {'{{cols[1][0]}}':1,'count':2},
+    {'{{cols[1][0]}}':2,'count':2},
+    {'{{cols[1][0]}}':3,'count':2}
+]
+r.post('http://192.168.1.201:10081/api/model/{{tablename}}/',{'apidata':json.dumps(data)})
+</pre>
+        </p>
+    </div>
+</div>
+{% end %}
+

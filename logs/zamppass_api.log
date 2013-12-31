@@ -1,0 +1,741 @@
+2013-10-12 20:24:49,982 INFO 19661 redis{'ip': '172.22.24.10'}
+2013-10-12 20:24:50,063 DEBUG 19661 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:25:08,275 INFO 19661 redis{'ip': '172.22.24.10'}
+2013-10-12 20:25:08,293 DEBUG 19661 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:25:19,593 INFO 19661 redis{'ip': '172.22.24.10'}
+2013-10-12 20:25:19,620 DEBUG 19661 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:25:45,487 INFO 19661 mongodb{'device': 'CNG128TKCK'}
+2013-10-12 20:25:45,538 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.device = %(device_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:32:54,820 INFO 19661 mongodb{'device': 'CNG128TKCK'}
+2013-10-12 20:32:54,850 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.device = %(device_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:36:41,199 INFO 19661 mongodb{'device': 'CNG128TKCK'}
+2013-10-12 20:36:41,229 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.device = %(device_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:45:20,718 INFO 19661 mongodb{'ip': 'TS-DB01'}
+2013-10-12 20:45:20,751 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:45:24,315 INFO 19661 mongodb{'ip': 'TS-DB02'}
+2013-10-12 20:45:24,347 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:48:51,828 INFO 19661 mongodb{'ip': 'TS-DB02'}
+2013-10-12 20:48:51,852 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:48:59,189 INFO 19661 mongodb{'ip': 'TS-DB02'}
+2013-10-12 20:48:59,213 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:49:08,993 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:49:09,033 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:49:32,051 INFO 19661 mongodb{'ip': 'TS-DB04?width=400'}
+2013-10-12 20:49:32,079 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:49:40,953 INFO 19661 mongodb{'ip': 'TS-DB04?width=400'}
+2013-10-12 20:49:40,980 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:49:44,880 INFO 19661 mongodb{'ip': 'TS-DB04?width=400'}
+2013-10-12 20:49:44,909 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:49:49,253 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:49:49,279 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:49:53,759 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:49:53,787 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:49:55,564 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:49:55,592 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:49:57,156 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:49:57,181 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:49:58,413 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:49:58,441 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:50:00,387 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:50:00,417 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:50:01,763 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:50:01,820 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:50:03,149 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:50:03,181 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:50:04,469 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:50:04,489 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:50:05,773 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:50:05,794 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:50:06,988 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:50:07,008 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:52:54,433 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:52:54,455 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:52:58,869 INFO 19661 mongodb{'ip': 'TS-DB02'}
+2013-10-12 20:52:58,902 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:53:06,367 INFO 19661 mongodb{'ip': 'TS-DB02'}
+2013-10-12 20:53:06,387 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:53:11,826 INFO 19661 redis{'ip': '172.22.24.10'}
+2013-10-12 20:53:11,844 DEBUG 19661 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:53:21,857 INFO 19661 redis{'ip': '172.22.24.10'}
+2013-10-12 20:53:21,887 DEBUG 19661 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:53:47,812 INFO 19661 redis{'ip': '172.22.24.10'}
+2013-10-12 20:53:47,839 DEBUG 19661 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:55:12,325 INFO 19661 mongodb{'ip': 'TS-DB02'}
+2013-10-12 20:55:12,347 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:55:25,430 INFO 19661 mongodb{'ip': 'TS-DB02'}
+2013-10-12 20:55:25,460 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:55:29,167 INFO 19661 mongodb{'ip': 'TS-DB04'}
+2013-10-12 20:55:29,197 DEBUG 19661 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 20:57:17,504 INFO 19661 smartpixal{'ip': '172.22.24.10'}
+2013-10-12 20:57:17,534 DEBUG 19661 SELECT service_smart.total_read AS service_smart_total_read, service_smart.total_process AS service_smart_total_process, service_smart.datetime AS service_smart_datetime 
+FROM service_smart 
+WHERE service_smart.ip = %(ip_1)s AND service_smart.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:06:47,045 INFO 27075 smartpixal{}
+2013-10-12 21:06:47,186 DEBUG 27075 SELECT service_smart.total_read AS service_smart_total_read, service_smart.total_process AS service_smart_total_process, service_smart.datetime AS service_smart_datetime 
+FROM service_smart 
+WHERE service_smart.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:15:00,733 INFO 27253 mongodb{'ip': 'TS-DB04'}
+2013-10-12 21:15:00,814 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:15:07,525 INFO 27253 mongodb{'ip': 'TS-DB02'}
+2013-10-12 21:15:07,546 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:15:18,053 INFO 27253 smartpixal{'ip': '172.22.24.10'}
+2013-10-12 21:15:18,084 DEBUG 27253 SELECT service_smart.total_read AS service_smart_total_read, service_smart.total_process AS service_smart_total_process, service_smart.datetime AS service_smart_datetime 
+FROM service_smart 
+WHERE service_smart.ip = %(ip_1)s AND service_smart.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:19:30,005 INFO 27253 mongodb{'device': 'CNG128TKCK'}
+2013-10-12 21:19:30,147 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.device = %(device_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:19:41,601 INFO 27253 mongodb{'device': 'TS-DB01'}
+2013-10-12 21:19:41,631 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.device = %(device_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:19:44,382 INFO 27253 mongodb{'device': 'TS-DB02'}
+2013-10-12 21:19:44,422 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.device = %(device_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:19:51,937 INFO 27253 mongodb{'ip': 'TS-DB02'}
+2013-10-12 21:19:51,968 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:30:31,917 INFO 27253 mongodb{'ip': 'TS-DB2'}
+2013-10-12 21:30:31,998 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:30:42,925 INFO 27253 mongodb{'ip': 'TS-DB4'}
+2013-10-12 21:30:42,957 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:30:51,227 INFO 27253 mongodb{'ip': 'TS-DB1'}
+2013-10-12 21:30:51,258 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:30:54,528 INFO 27253 mongodb{'ip': 'TS-DB2'}
+2013-10-12 21:30:54,561 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:30:55,903 INFO 27253 mongodb{'ip': 'TS-DB2'}
+2013-10-12 21:30:55,931 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:31:27,473 INFO 27253 mongodb{'ip': 'TS-DB2'}
+2013-10-12 21:31:27,501 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:31:42,124 INFO 27253 mongodb{'ip': 'TS-DB2'}
+2013-10-12 21:31:42,152 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:31:58,150 INFO 27253 mongodb{'ip': 'TS-DB1'}
+2013-10-12 21:31:58,178 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:32:02,479 INFO 27253 mongodb{'ip': 'TS-DB2'}
+2013-10-12 21:32:02,500 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:32:05,321 INFO 27253 mongodb{'ip': 'TS-DB3'}
+2013-10-12 21:32:05,344 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:32:08,311 INFO 27253 mongodb{'ip': 'TS-DB4'}
+2013-10-12 21:32:08,332 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:33:12,234 INFO 27253 mongodb{'ip': 'TS-DB02'}
+2013-10-12 21:33:12,254 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:33:35,902 INFO 27253 mongodb{'ip': 'TS-DB04'}
+2013-10-12 21:33:35,931 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:34:19,817 INFO 27253 smartpixal{'ip': '172.22.24.10'}
+2013-10-12 21:34:19,864 DEBUG 27253 SELECT service_smart.total_read AS service_smart_total_read, service_smart.total_process AS service_smart_total_process, service_smart.datetime AS service_smart_datetime 
+FROM service_smart 
+WHERE service_smart.ip = %(ip_1)s AND service_smart.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:35:26,174 INFO 27253 smartpixal{'ip': 'device=CNG128TKCK'}
+2013-10-12 21:35:26,198 DEBUG 27253 SELECT service_smart.total_read AS service_smart_total_read, service_smart.total_process AS service_smart_total_process, service_smart.datetime AS service_smart_datetime 
+FROM service_smart 
+WHERE service_smart.ip = %(ip_1)s AND service_smart.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:35:30,326 INFO 27253 smartpixal{'device': 'CNG128TKCK'}
+2013-10-12 21:35:30,353 DEBUG 27253 SELECT service_smart.total_read AS service_smart_total_read, service_smart.total_process AS service_smart_total_process, service_smart.datetime AS service_smart_datetime 
+FROM service_smart 
+WHERE service_smart.device = %(device_1)s AND service_smart.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:37:08,875 INFO 27253 mongodb{'ip': 'TS-DB04'}
+2013-10-12 21:37:08,896 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-12 21:37:15,326 INFO 27253 mongodb{'ip': 'TS-DB02'}
+2013-10-12 21:37:15,350 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:13:14,455 INFO 27253 mongodb{'ip': 'TS-DB02'}
+2013-10-13 15:13:14,476 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:15:17,320 INFO 27253 smartpixal{'ip': '172.22.24.10'}
+2013-10-13 15:15:17,337 DEBUG 27253 SELECT service_smart.total_read AS service_smart_total_read, service_smart.total_process AS service_smart_total_process, service_smart.datetime AS service_smart_datetime 
+FROM service_smart 
+WHERE service_smart.ip = %(ip_1)s AND service_smart.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:16:07,014 INFO 27253 mongodb{'ip': 'TS-DB04'}
+2013-10-13 15:16:07,033 DEBUG 27253 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:46:52,981 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 15:46:53,123 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:47:21,242 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 15:47:21,271 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:47:24,093 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 15:47:24,121 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:47:26,776 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 15:47:26,807 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:55:43,385 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 15:55:43,437 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:57:36,331 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 15:57:36,358 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:57:47,479 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 15:57:47,508 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:57:55,357 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 15:57:55,376 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 15:59:37,081 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 15:59:37,227 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:00:34,578 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:00:34,684 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:01:06,603 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:01:06,696 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:02:21,649 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:02:21,678 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:02:24,087 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:02:24,116 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:03:08,461 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:03:08,556 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:04:02,559 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:04:02,587 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:04:16,250 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:04:16,270 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:04:35,258 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:04:35,287 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:04:54,222 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:04:54,372 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:05:02,037 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:05:02,148 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:05:16,363 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:05:16,456 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:05:39,961 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:05:39,986 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:07:28,160 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:07:28,187 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:07:58,812 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:07:58,839 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:08:14,106 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:08:14,125 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:08:39,991 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:08:40,014 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:09:10,014 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:09:10,033 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:11:30,011 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:11:30,051 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:12:14,764 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:12:14,782 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:12:17,211 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:12:17,231 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:12:20,265 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:12:20,287 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:13:20,057 INFO 13195 redis{'ip': '172.22.24.10?height=300'}
+2013-10-13 16:13:20,086 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:13:50,097 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:13:50,127 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:14:33,336 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:14:33,365 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:15:09,499 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:15:09,518 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:17:03,421 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:17:03,441 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:18:46,548 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:18:46,576 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:20:43,552 INFO 13195 mongodb{'ip': 'TS-DB03'}
+2013-10-13 16:20:43,604 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:20:57,102 INFO 13195 mongodb{'ip': 'TS-DB03'}
+2013-10-13 16:20:57,135 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:21:05,890 INFO 13195 mongodb{'ip': 'TS-DB03'}
+2013-10-13 16:21:05,910 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:21:16,786 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 16:21:16,809 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 16:24:57,275 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 16:24:57,300 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:42:19,927 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 17:42:19,957 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:42:36,284 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:42:36,309 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:43:24,689 INFO 13195 mongodb{'ip': 'TS-DB04'}
+2013-10-13 17:43:24,720 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:43:34,000 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:43:34,025 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:43:37,663 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 17:43:37,689 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:45:36,301 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:45:36,331 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:45:47,888 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:45:47,918 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:46:17,261 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:46:17,301 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:46:21,853 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 17:46:21,879 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:46:31,501 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 17:46:31,529 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:47:17,504 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:47:17,525 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:47:24,713 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 17:47:24,739 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:48:00,259 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:48:00,288 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:48:10,670 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 17:48:10,688 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:48:26,928 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 17:48:26,957 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:48:31,153 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:48:31,182 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:51:32,777 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:51:32,808 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:51:34,425 INFO 13195 mongodb{'ip': 'TS-DB02'}
+2013-10-13 17:51:34,457 DEBUG 13195 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 17:51:38,322 INFO 13195 redis{'ip': '172.22.24.10'}
+2013-10-13 17:51:38,348 DEBUG 13195 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 18:00:26,021 INFO 27289 mongodb{'ip': 'TS-DB02'}
+2013-10-13 18:00:26,120 DEBUG 27289 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 18:00:38,331 INFO 27289 redis{'ip': '172.22.24.10'}
+2013-10-13 18:00:38,385 DEBUG 27289 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 18:00:51,400 INFO 27289 redis{'ip': '172.22.24.10'}
+2013-10-13 18:00:51,428 DEBUG 27289 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 18:01:25,334 INFO 27289 mongodb{'ip': 'TS-DB02'}
+2013-10-13 18:01:25,367 DEBUG 27289 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 21:32:04,395 INFO 16925 mongodb{'ip': 'TS-DB02'}
+2013-10-13 21:32:04,488 DEBUG 16925 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 21:59:23,575 INFO 16925 mongodb{'ip': 'TS-DB02'}
+2013-10-13 21:59:23,677 DEBUG 16925 SELECT service_mongo.update AS service_mongo_update, service_mongo.insert AS service_mongo_insert, service_mongo.query AS service_mongo_query, service_mongo.delete AS service_mongo_delete, service_mongo.datetime AS service_mongo_datetime 
+FROM service_mongo 
+WHERE service_mongo.ip = %(ip_1)s AND service_mongo.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-13 21:59:31,669 INFO 16925 redis{'ip': '172.22.24.10'}
+2013-10-13 21:59:31,733 DEBUG 16925 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 16:52:57,278 INFO 12977 robots{'ip': '172.22.24.154'}
+2013-10-14 16:53:29,473 INFO 12977 robots{'ip': '172.22.24.154'}
+2013-10-14 16:53:29,550 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 16:54:14,360 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 16:54:14,376 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 16:54:19,809 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 16:54:19,834 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 16:54:21,430 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 16:54:21,455 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 16:54:22,892 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 16:54:22,918 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 16:54:25,826 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 16:54:25,848 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 16:55:03,972 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 16:55:03,984 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 16:56:53,361 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 16:56:53,385 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 16:56:54,856 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 16:56:54,881 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 17:46:05,177 INFO 12977 logc{'ip': '172.22.24.101', 'name': 'Robots_total'}
+2013-10-14 17:46:05,210 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.name = %(name_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 17:46:10,689 INFO 12977 logc{'ip': '172.22.16.101', 'name': 'Robots_total'}
+2013-10-14 17:46:10,704 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.name = %(name_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 17:46:14,011 INFO 12977 logc{'ip': '172.22.17.101', 'name': 'Robots_total'}
+2013-10-14 17:46:14,029 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.name = %(name_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 17:46:43,080 INFO 12977 logc{'ip': '172.22.16.101'}
+2013-10-14 17:46:43,105 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 17:49:48,005 INFO 12977 logc{'ip': '172.22.16.101'}
+2013-10-14 17:49:48,024 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 17:49:49,641 INFO 12977 logc{'ip': '172.22.16.101'}
+2013-10-14 17:49:49,660 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 17:50:02,446 INFO 12977 logc{'ip': '172.22.16.101'}
+2013-10-14 17:50:02,485 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 19:38:57,914 INFO 12977 logc{'ip': '172.22.16.101'}
+2013-10-14 19:38:57,938 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 19:39:18,815 INFO 12977 logc{'ip': '172.22.16.101'}
+2013-10-14 19:39:18,833 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 19:39:46,751 INFO 12977 logc{'ip': '172.22.16.101'}
+2013-10-14 19:39:46,776 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 19:44:18,065 INFO 12977 logc{'ip': '172.22.16.101'}
+2013-10-14 19:44:18,081 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 20:04:48,332 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-14 20:04:48,385 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 20:04:57,006 INFO 12977 redis{'ip': '172.22.32.4'}
+2013-10-14 20:04:57,036 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 20:05:00,260 INFO 12977 redis{'ip': '172.22.32.1'}
+2013-10-14 20:05:00,288 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 20:05:05,479 INFO 12977 redis{'ip': '172.22.32.10'}
+2013-10-14 20:05:05,498 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 20:05:12,117 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-14 20:05:12,160 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 20:05:12,257 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-14 20:05:12,276 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 21:55:00,313 INFO 12977 logc{'ip': '172.22.16.101'}
+2013-10-14 21:55:00,371 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 21:55:11,747 INFO 12977 logc{'ip': '172.22.16.102'}
+2013-10-14 21:55:11,762 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 21:55:14,907 INFO 12977 logc{'ip': '172.22.16.103'}
+2013-10-14 21:55:14,922 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 21:55:17,529 INFO 12977 logc{'ip': '172.22.16.104'}
+2013-10-14 21:55:17,544 DEBUG 12977 SELECT service_logc.qps AS service_logc_qps, service_logc.datetime AS service_logc_datetime 
+FROM service_logc 
+WHERE service_logc.ip = %(ip_1)s AND service_logc.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:03:19,926 INFO 12977 robots{'ip': '172.22.16.104'}
+2013-10-14 22:03:19,948 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:03:28,551 INFO 12977 robots{'ip': '172.22.16.104'}
+2013-10-14 22:03:28,574 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:04:22,358 INFO 12977 robots{'ip': '172.22.24.154'}
+2013-10-14 22:04:22,404 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:04:33,043 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:04:33,062 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:05:02,692 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:05:02,751 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:05:05,171 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:05:05,184 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:05:13,899 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:05:13,915 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:05:20,633 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:05:20,649 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:07:05,776 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:07:05,791 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:08:43,558 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:08:43,584 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:42:27,094 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:42:27,117 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:42:39,527 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:42:39,552 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-14 22:42:40,901 INFO 12977 robots{'ip': '172.22.24.154', 'name': 'Robots_total'}
+2013-10-14 22:42:40,976 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.name = %(name_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 10:30:35,468 INFO 12977 robots{'ip': '172.22.16.104'}
+2013-10-15 10:30:35,483 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 10:30:36,909 INFO 12977 robots{'ip': '172.22.16.104'}
+2013-10-15 10:30:36,926 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 10:30:38,087 INFO 12977 robots{'ip': '172.22.16.104'}
+2013-10-15 10:30:38,102 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 10:30:41,540 INFO 12977 robots{'ip': '172.22.16.101'}
+2013-10-15 10:30:41,557 DEBUG 12977 SELECT service_robots.qps AS service_robots_qps, service_robots.datetime AS service_robots_datetime 
+FROM service_robots 
+WHERE service_robots.ip = %(ip_1)s AND service_robots.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 14:06:05,422 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-15 14:06:05,439 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 14:16:06,603 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-15 14:16:06,621 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 14:26:07,617 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-15 14:26:07,636 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 14:36:08,655 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-15 14:36:08,673 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 14:46:09,673 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-15 14:46:09,691 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 14:56:10,697 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-15 14:56:10,716 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
+2013-10-15 15:06:11,677 INFO 12977 redis{'ip': '172.22.24.10'}
+2013-10-15 15:06:11,696 DEBUG 12977 SELECT service_redis.total_commands_processed AS service_redis_total_commands_processed, service_redis.datetime AS service_redis_datetime 
+FROM service_redis 
+WHERE service_redis.ip = %(ip_1)s AND service_redis.datetime > %(datetime_1)s ORDER BY datetime ASC
